@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222345;
+  color: #fff;
+  font-family: monospace, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px auto;
+  font-size: 20px;
+}
+
+#image {
+  position: absolute;
+  z-index: -1;
+  width: 125px;
+  top: 5%;
+  right: 5%;
+  border-radius: 10px;
+}
+
+main {
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+#conditions {
+  margin-top: 120px;
+}
+
+#conditions h4,
+#conditions h2 {
+  margin: 0px;
+}
+
+#conditions h4 {
+  margin-top: 30px;
+}
+
+#conditions h2 {
+  margin-bottom: 30px;
+}
+
+form * {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.25);
+  transition: all 300ms ease-in-out;
+}
+
+form input[type="submit"] {
+  background: rgba(241, 180, 20, 0.6);
+  font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+  color: rgba(241, 180, 20, 0.6);
+  background-color: #000;
+}
